@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+
+*{
+    margin: 0px;
+}
+.proflie{
+    height:100vh;
+    width: 100%;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+.pro{
+    /* height: 25%; */
+    width: 30%;
+    background-color: rgba(253, 249, 249, 0.2);
+    align-self: center;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: white;
+    text-shadow: 2px 0px rgb(102, 101, 99);
+
+}
+
+.pro_h1{
+    color: black;
+}
+
+.pro_img{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+h2{
+    font-weight: 200;
+    font-family: 'Mouse Memoirs', sans-serif;
+
+}
+
+.icon{
+    font-size: 20px;
+    display: flex;
+    column-gap: 10px;
+    color: black;
+    text-shadow: 0px 0px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    color: aquamarine;
+}
+ /* about */
+ .main{
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+ }
+ 
+ .text{
+    margin: 10%;
+    
+ }
+
+/* my work */
+
+.projects{
+    height: 100vh;
+    width: 100%;
+    /* background-color: bisque; */
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    color: white;
+}
+
+.works{
+    height: 50%;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.2%;   
+    row-gap: 10px;
+}
+
+.work{
+    height: 50%;
+    width: 24%;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.work_detail{
+    background-color:rgba(0, 0, 0, 0.8);
+    min-height: 0px;
+    color: white;
+    width: 100%;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    transition: .5s;
+
+}
+h3{
+  font-size: small;
+  font-weight: 100;
+  color: white;
+  font-family: 'Mouse Memoirs', sans-serif;
+
+
+}
+
+.work_detail:hover
+{
+   min-height: 50%; 
+}
+
+.work:nth-child(1)
+{
+    background-image: url("images/1.jpg");
+}
+
+.work:nth-child(2)
+{
+    background-image: url("images/2.jpg");
+}
+
+.work:nth-child(3)
+{
+    background-image: url("images/3.jpg");
+}
+
+.work:nth-child(4)
+{
+    background-image: url("images/4.jpg");
+}
+
+.work:nth-child(5)
+{
+    background-image: url("images/5.jpg");
+}
+
+.work:nth-child(6)
+{
+    background-image: url("images/6.jpg");
+}
+
+.work:nth-child(7)
+{
+    background-image: url("images/7.jpg");
+}
+
+.work:nth-child(8)
+{
+    background-image: url("images/8.jpg");
+}
+/* info */
+
+.information{
+    height: 25%;
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    column-gap: 1.3%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.info{
+    
+    width: 24%;
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+
+    
+}
+
+.info_detail{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    min-height: 0px;
+    width: 100%;
+    padding: 10px 5px;
+    word-wrap: break-word;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.info_detail:hover{
+    min-height: 50%;
+}
+
+.info:nth-child(1){
+    background-image: url("images/about.jpg");
+}
+
+.info:nth-child(2){
+    background-image: url("images/prog_lang.jpg");
+}
+
+.info:nth-child(3){
+    background-image: url("images/project.jpg");
+}
+
+.info:nth-child(4){
+    background-image: url("images/about.jpg");
+}
+
